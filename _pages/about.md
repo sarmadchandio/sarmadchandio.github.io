@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "About me"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -8,4 +8,4 @@ redirect_from:
   - /about.html
 ---
 
-I am second year PhD student at the University of Iowa in Computer Science working in the [SPARTA lab](https://sparta.cs.uiowa.edu/) advised by [Rishab Nithyanand](https://sparta.cs.uiowa.edu/people/rishab/). I work in computational social science focusing on content moderation. I have done work in finding systematic ways to audit different platforms.
+I am second year PhD student at the University of Iowa in Computer Science working in the [SPARTA](https://sparta.cs.uiowa.edu/) lab advised by [Rishab Nithyanand](https://sparta.cs.uiowa.edu/people/rishab/). I work in computational social science focusing on content moderation. I have done work in finding systematic ways to audit different platforms. ding dindg
