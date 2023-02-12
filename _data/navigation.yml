@@ -10,4 +10,4 @@ main:
     url: /year-archive/
     
   - title: "CV"
-    url: {{site.url}}/files/CV.pdf
+    url: /files/CV.pdf
