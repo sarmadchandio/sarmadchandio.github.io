@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Sarmad Chandio"
 title_separator          : "-"
 name                     : &name "Sarmad Chandio"
-description              : &description "Research Assistant at UIOWA"
+description              : &description "Research Assistant at SPARTA lab"
 url                      : https://sarmadchandio.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "sarmadchandio.github.io"
@@ -82,12 +82,12 @@ analytics:
 author:
   name             : "Sarmad Chandio"
   avatar           : "profile.png"
-  bio              : "bio"
+  bio              : "Sarmad Chandio | Research Assistant at SPARTA lab"
   location         : "Iowa City, Iowa"
   employer         :
   pubmed           : 
   googlescholar    : 
-  email            :
+  email            :  "sarmad-chandio@uiowa.edu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -178,7 +178,7 @@ collections:
   teaching:
     output: true
     permalink: /:collection/:path/
-  publications:
+  research:
     output: true
     permalink: /:collection/:path/
   portfolio:
@@ -218,15 +218,15 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _publications
+  # _research
   - scope:
       path: ""
-      type: publications
+      type: research
     values:
       layout: single
       author_profile: true
       share: true
-      comments: true
+      comments: false
   # _portfolio
   - scope:
       path: ""

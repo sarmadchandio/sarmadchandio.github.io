@@ -8,4 +8,6 @@ redirect_from:
   - /about.html
 ---
 
-I am second year PhD student at the University of Iowa in Computer Science working in the [SPARTA](https://sparta.cs.uiowa.edu/) lab advised by [Rishab Nithyanand](https://sparta.cs.uiowa.edu/people/rishab/). I work in computational social science focusing on content moderation. I have done work in finding systematic ways to audit different platforms. ding dindg
+Hi, I am Sarmad, a PhD student at the University of Iowa. I currently serve as a research assistant at [SPARTA](https://sparta.cs.uiowa.edu/) lab and work under the supervision of [Dr. Rishab](https://sparta.cs.uiowa.edu/people/rishab/). My research explores the social costs and welfare impacts of user platforms and systems with an objective to guide framework design and user utility maximization.
+
+I work at the intersection of computer science and humanities to understand the behavioral aspect of user platform interaction, explore the users' painpoints, and test various solutions that retains the integrity of platforms and improves user experience.
