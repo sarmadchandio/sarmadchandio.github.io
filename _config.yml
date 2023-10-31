@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Sarmad Chandio"
   avatar           : "profile.png"
-  bio              : "Sarmad Chandio | Research Assistant | SPARTA lab"
+  bio              : "Research Assistant | SPARTA lab"
   location         : "Iowa City, Iowa"
   employer         :
   pubmed           : 
@@ -102,12 +102,12 @@ author:
   instagram        :
   impactstory      : 
   lastfm           :
-  linkedin         :
+  linkedin         : "https://www.linkedin.com/in/sarmad-chandio/"
   orcid            : 
   pinterest        :
   soundcloud       :
   stackoverflow    : 
-  steam            :
+  steam            : 
   tumblr           :
   twitter          : 
   vine             :
