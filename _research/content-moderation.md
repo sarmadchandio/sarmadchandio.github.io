@@ -1,6 +1,6 @@
 ---
 title: "To Pay or Not to Pay"
-permalink: /research/content-moderation
+# permalink: /research/content-moderation
 excerpt: "Shift in Content Moderators' Behavior in Response to Different Incentives"
 ---
 
