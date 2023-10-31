@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Sarmad Chandio"
+title: "Home"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -8,6 +8,11 @@ redirect_from:
   - /about.html
 ---
 
-Hi, I am Sarmad, a third year PhD student at the University of Iowa. I currently serve as a research assistant at [SPARTA](https://sparta.cs.uiowa.edu/) lab and work under the supervision of [Dr. Rishab](https://sparta.cs.uiowa.edu/people/rishab/). My research explores the social costs and welfare impacts of user platforms and systems with an objective to guide framework design and user utility maximization.
+Hi, I am Sarmad, a third year PhD student at the University of Iowa. I am a research assistant at [SPARTA](https://sparta.cs.uiowa.edu/) lab and work under the supervision of [Rishab](https://sparta.cs.uiowa.edu/people/rishab/).
 
-I work at the intersection of computer science and humanities to understand the behavioral aspect of user platform interaction, explore the users' painpoints, and test various solutions that retains the integrity of platforms and improves user experience.
+
+I use computational social science theories with a focus on platform governance, and online manipulation. I spend my time doing this (and am interested in):
+- building infrastructures to audit platforms and uncover emergent effects of recommendation systems on users.
+- investigating the behavioural efforts of online volunteer moderators on platforms.
+- understanding how users radicalize on YouTube.
+- systematically detecting [data voids](https://datasociety.net/library/data-voids/).
