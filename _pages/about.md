@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Hi, I am Sarmad, a third year PhD student at the University of Iowa advised by [Dr. Rishab Nithyanand](https://sparta.cs.uiowa.edu/people/rishab/). I am a member of Algorithmic Personalization & Society and a research assistant at [SPARTA lab](https://sparta.cs.uiowa.edu/).
+Hi! I am Sarmad, a third year PhD student at the University of Iowa advised by [Dr. Rishab Nithyanand](https://sparta.cs.uiowa.edu/people/rishab/). I am a member of Algorithmic Personalization & Society and a research assistant at [SPARTA lab](https://sparta.cs.uiowa.edu/).
 
 
-I use a combination of algorithmic auditing, natural language processing, and social science theories to study platform governance, and online manipulation. Recently, I have developed an interest in how user platform interaction leads to change in ideologies.
+Using computational social science techniques I study how social media platforms affect user ideologies. This involves developing techniques to identify biases propagated through recommendation systems and how do users' opinions change as a result of using these platforms. 
