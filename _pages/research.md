@@ -10,7 +10,7 @@ comments: false
 <p style="margin-bottom:-25px; font-size:24px; font-family:Forum; font-weight:bold;">How Audit Methodologies Impact Our Understanding of YouTube’s Recommendation Systems | ICWSM' 24</p>
 <p style="margin-bottom:10px; font-size:22px; font-family:Forum">
 <strong>Sarmad Chandio</strong>, Daniyal Pirwani, Rishab Nithyanand $~$ 
-  <a href="https://arxiv.org/abs/2303.03445"><img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/regular/file-pdf.svg" width="30" height="30" ></a> 
+  <a href="https://ojs.aaai.org/index.php/ICWSM/article/view/31311"><img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/regular/file-pdf.svg" width="30" height="30" ></a> 
 </p> 
 
 Computational audits of social media websites have generated data that forms the basis of our understanding of the problematic behaviors of algorithmic recommendation systems. Focusing on YouTube, this paper demonstrates that conducting audits to make specific inferences about the underlying content recommendation system is more methodologically challenging that one might expect. 
