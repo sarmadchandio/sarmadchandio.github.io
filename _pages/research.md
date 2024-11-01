@@ -21,7 +21,7 @@ Computational audits of social media websites have generated data that forms the
 <!-- Social Media Radicationzation -->
 <p style="margin-bottom:-25px; font-size:24px; font-family:Forum; font-weight:bold;"> The Effect of Using Social Media on Abortion Attitudes | Working</p>
 <br/>
-Alongside traditional news, social media serves as a crucial source of news and information regarding contentious issues such as abortion. What sets social media apart from traditional news is its tendency  tendency to create a filter bubble around one's own opinions. This tendency varies across different platforms. In a logitudinal survey, we collect the opinions of individuals on abortion in two waves, distanced a year apart (2021-2022). We also collect their behavioral data usage during this time frame to have a complete picture of their consumption pattern in this time frame. Using both the data sources, we compare the social media histories of various users to quantify the influence of various social media in swaying user opinions.
+What sets social media apart as a news source from traditional media is its tendency to create a filter bubble around one’s opinions. In a longitudinal survey, we collect the opinions of individuals on abortion in two waves, distanced a year apart (2021-2022). We also collect their behavioral data usage during this time frame to receive a complete picture of their consumption pattern. Using both these data sources, we compare the social media histories of users to quantify its influence in swaying user opinions.
 <br/> <br/> <br/>
 
 
@@ -30,7 +30,7 @@ Alongside traditional news, social media serves as a crucial source of news and 
 <!-- Data Voids -->
 <p style="margin-bottom:-25px; font-size:24px; font-family:Forum; font-weight:bold;"> Systematically Detecting Data Voids | Working</p>
 <br/>
-Information seeking users rely on intuition, attracting them to a particular information source, to seek answers online. Malicious actors strategically fill up the gaps of information in the online information space called [data voids](https://datasociety.net/library/data-voids/) leading vulnerable users to misinformation. In this work we are designing infrastrucutres to systematically detect exploitative data voids on the internet.
+Language is constantly evolving with new terms and expressions, while existing ones take on fresh meanings. Our project focuses on analyzing emerging problematic terms and the subtle ways in which previously neutral language can shift into concerning territory — a phenomenon known as data voids. For example, during the 2021 COVID-19 pandemic, individuals searching for health information might have encountered terms like ‘plandemic,’ which led them to conspiracy theories rather than factual medical resources. We are developing early detection methods for identifying future problematic terms before they can significantly impact online discourse and information seeking behavior.
 
 <br/> <br/> <br/>
 
