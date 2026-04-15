@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380"
+     shape-rendering="geometricPrecision"
+     text-rendering="geometricPrecision"
+     font-family="'Source Sans 3', system-ui, sans-serif">
+  <rect width="600" height="380" fill="#fdf6e3"/>
+
+  <!-- title -->
+  <text x="300" y="38" text-anchor="middle" font-size="22" font-style="italic" fill="#586e75">
+    "pizzagate" — absorbed into a larger theory
+  </text>
+
+  <!-- year markers -->
+  <g font-size="26" font-weight="700" letter-spacing="0.18em" fill="#586e75">
+    <text x="100" y="92" text-anchor="middle">2016</text>
+    <text x="300" y="92" text-anchor="middle">2018</text>
+    <text x="495" y="92" text-anchor="middle">2022</text>
+  </g>
+
+  <!-- ============== 2016: small isolated cluster ============== -->
+  <g>
+    <ellipse cx="100" cy="220" rx="70" ry="60"
+             fill="#cb4b16" fill-opacity="0.18"
+             stroke="#cb4b16" stroke-width="2.5" stroke-dasharray="6,5"/>
+    <text x="100" y="226" text-anchor="middle" font-size="32" font-weight="700"
+          font-family="'Libre Caslon Text','EB Garamond',Georgia,serif" fill="#073642">
+      pizzagate
+    </text>
+  </g>
+
+  <!-- ============== 2018: overlapping pair ============== -->
+  <g>
+    <ellipse cx="265" cy="220" rx="62" ry="55"
+             fill="#cb4b16" fill-opacity="0.20"
+             stroke="#cb4b16" stroke-width="2.5" stroke-dasharray="6,5"/>
+    <ellipse cx="335" cy="220" rx="72" ry="62"
+             fill="#cb4b16" fill-opacity="0.32"
+             stroke="#cb4b16" stroke-width="2.5" stroke-dasharray="6,5"/>
+    <text x="252" y="225" text-anchor="middle" font-size="22" font-weight="700"
+          font-family="'Libre Caslon Text','EB Garamond',Georgia,serif" fill="#073642">
+      pizzagate
+    </text>
+    <text x="350" y="228" text-anchor="middle" font-size="28" font-weight="700"
+          font-family="'Libre Caslon Text','EB Garamond',Georgia,serif" fill="#073642">
+      QAnon
+    </text>
+  </g>
+
+  <!-- ============== 2022: fully absorbed (big single cluster) ============== -->
+  <g>
+    <ellipse cx="495" cy="220" rx="95" ry="80"
+             fill="#cb4b16" fill-opacity="0.45"
+             stroke="#cb4b16" stroke-width="3"/>
+    <text x="495" y="228" text-anchor="middle" font-size="42" font-weight="700"
+          font-family="'Libre Caslon Text','EB Garamond',Georgia,serif" fill="#073642">
+      QAnon
+    </text>
+  </g>
+
+  <!-- arrows between clusters -->
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0,0 L8,5 L0,10 z" fill="#cb4b16"/>
+    </marker>
+  </defs>
+  <g stroke="#cb4b16" stroke-width="3.5" fill="none" opacity="0.8">
+    <path d="M 175 220 L 200 220" marker-end="url(#arrow)"/>
+    <path d="M 410 220 L 395 220" marker-end="url(#arrow)"/>
+  </g>
+
+  <!-- caption -->
+  <text x="300" y="350" text-anchor="middle" font-size="20" font-style="italic" fill="#586e75">
+    a small theory swallowed by a bigger one
+  </text>
+</svg>

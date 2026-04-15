@@ -1,3 +1,15 @@
+# Local artifacts
+.bundle/
+vendor/
+node_modules/
 _site/
 
-Gemfile.lock
+# Local files (not for the public site)
+ConspiracyEvolution.pdf
+yt_audit.png
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

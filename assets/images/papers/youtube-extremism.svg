@@ -1,0 +1,33 @@
+<svg viewBox="0 0 360 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="360" height="240" fill="#fdf6e3"/>
+  <g fill="#cb4b16" opacity="0.3">
+    <circle cx="80" cy="120" r="20"/>
+    <circle cx="180" cy="120" r="20"/>
+    <circle cx="280" cy="120" r="20"/>
+  </g>
+  <!-- YouTube play button silhouette -->
+  <rect x="140" y="85" width="80" height="55" rx="12" fill="#073642"/>
+  <polygon points="170,100 170,125 195,112" fill="#cb4b16"/>
+  <!-- radiating arrows to extremism points -->
+  <g stroke="#cb4b16" stroke-width="2.5" fill="none" opacity="0.85">
+    <path d="M 140 115 L 70 115" marker-end="url(#arr1)"/>
+    <path d="M 220 115 L 290 115" marker-end="url(#arr1)"/>
+  </g>
+  <g fill="#073642">
+    <circle cx="55" cy="115" r="8"/>
+    <circle cx="305" cy="115" r="8"/>
+    <text x="48" y="145" fill="#586e75" font-family="Source Sans 3, sans-serif" font-size="11" font-style="italic">left</text>
+    <text x="290" y="145" fill="#586e75" font-family="Source Sans 3, sans-serif" font-size="11" font-style="italic">right</text>
+  </g>
+  <defs>
+    <marker id="arr1" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0,0 L6,4 L0,8 z" fill="#cb4b16"/>
+    </marker>
+  </defs>
+  <!-- grain dots -->
+  <g fill="#cb4b16" opacity="0.4">
+    <circle cx="40" cy="50" r="1.5"/><circle cx="320" cy="60" r="1.5"/>
+    <circle cx="50" cy="200" r="1.5"/><circle cx="310" cy="195" r="1.5"/>
+    <circle cx="180" cy="40" r="1.5"/><circle cx="180" cy="205" r="1.5"/>
+  </g>
+</svg>

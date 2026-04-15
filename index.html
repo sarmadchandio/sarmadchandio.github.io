@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sarmad Chandio | سرمد</title>
+  <meta name="description" content="PhD candidate at the University of Iowa studying how recommendation systems shape ideologies." />
+
+  <link rel="icon" type="image/svg+xml" href="assets/icons/03-star.svg" />
+  <link rel="canonical" href="https://sarmadchandio.com/" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=EB+Garamond:ital,wght@0,400;0,500;1,400;1,500&family=Source+Sans+3:wght@300;400;500;600&family=Amiri:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+  <!-- ============================ FIXED SIDE WATERFALL ============================ -->
+  <aside class="waterfall" aria-label="Recent publications">
+    <div class="waterfall__viewport">
+      <div class="waterfall__track" id="waterfall-track">
+        <a class="waterfall__item" href="#research"><img src="assets/images/papers/youtube-extremism.svg" alt="" /><span>YouTube production &amp; extreme ideologies</span></a>
+        <a class="waterfall__item" href="#research"><img src="assets/images/papers/stereotypes.svg" alt="" /><span>Flattening fantasies</span></a>
+        <a class="waterfall__item" href="#research"><img src="assets/images/papers/conspiracy.svg" alt="" /><span>Semantic structure of conspiracy theories</span></a>
+        <a class="waterfall__item" href="#research"><img src="assets/images/papers/audit-methods.svg" alt="" /><span>YouTube audit methods</span></a>
+        <!-- duplicated for seamless loop -->
+        <a class="waterfall__item" href="#research" aria-hidden="true" tabindex="-1"><img src="assets/images/papers/youtube-extremism.svg" alt="" /><span>YouTube production &amp; extreme ideologies</span></a>
+        <a class="waterfall__item" href="#research" aria-hidden="true" tabindex="-1"><img src="assets/images/papers/stereotypes.svg" alt="" /><span>Flattening fantasies</span></a>
+        <a class="waterfall__item" href="#research" aria-hidden="true" tabindex="-1"><img src="assets/images/papers/conspiracy.svg" alt="" /><span>Semantic structure of conspiracy theories</span></a>
+        <a class="waterfall__item" href="#research" aria-hidden="true" tabindex="-1"><img src="assets/images/papers/audit-methods.svg" alt="" /><span>YouTube audit methods</span></a>
+      </div>
+    </div>
+    <button type="button" class="waterfall__toggle" id="waterfall-toggle" aria-pressed="false">
+      <span class="icon" aria-hidden="true">❚❚</span>
+      <span class="label">Pause</span>
+    </button>
+  </aside>
+
+  <main>
+
+    <!-- ============================ MASTHEAD ============================ -->
+    <header class="masthead container">
+      <div class="masthead__kicker">
+        <a href="https://cp3.org.uiowa.edu/">CP3</a> &middot;
+        <a href="https://sparta.cs.uiowa.edu/">SPARTA LAB</a> &middot;
+        <a href="https://s-cube.lab.uiowa.edu/">S-CUBE LAB</a> &middot;
+        UNIVERSITY OF IOWA
+      </div>
+
+      <h1 class="masthead__name">Sarmad Chandio</h1>
+      <div class="masthead__arabic">سرمد</div>
+
+      <p class="masthead__tagline">On platforms, people, and the algorithms between them.</p>
+
+      <div class="masthead__divider"></div>
+
+      <div class="masthead__metadata">
+        <span>Est. 2021</span>
+        <span>Iowa City</span>
+        <span>PhD Candidate</span>
+      </div>
+
+      <nav class="masthead__nav" aria-label="Primary">
+        <a href="#research">research</a>
+        <a href="#talks">talks</a>
+        <a href="files/CV.pdf" target="_blank" rel="noopener">cv</a>
+        <a href="#teaching">teaching</a>
+      </nav>
+
+      <img src="assets/images/profile.png" alt="Sarmad Chandio" class="masthead__portrait" />
+    </header>
+
+    <!-- ============================ INTRO ============================ -->
+    <section class="intro" aria-label="About">
+      <div class="intro__text">
+        <p>Hi! I am Sarmad, a fifth-year PhD student at the University of Iowa advised by <a href="https://sparta.cs.uiowa.edu/people/rishab/">Dr. Rishab Nithyanand</a>. I am a member of the Center for <a href="https://cp3.org.uiowa.edu/">Publics, Platforms &amp; Personalization</a> and a research assistant at the <a href="https://sparta.cs.uiowa.edu/">SPARTA lab</a>.</p>
+        <p>Using computational social science techniques, I study how social media platforms affect user ideologies — developing methods to identify bias propagation through recommendation systems and measure how this bias shapes user opinions.</p>
+      </div>
+
+      <div class="intro__socials">
+        <a href="mailto:sarmad-chandio@uiowa.edu" aria-label="Email" title="Email"><i class="fas fa-envelope"></i></a>
+        <a href="https://github.com/sarmadchandio" aria-label="GitHub" title="GitHub"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/sarmad-chandio" aria-label="LinkedIn" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        <a href="https://scholar.google.com/" aria-label="Google Scholar" title="Google Scholar"><i class="fas fa-graduation-cap"></i></a>
+        <a href="https://twitter.com/" aria-label="Twitter" title="Twitter"><i class="fab fa-twitter"></i></a>
+      </div>
+    </section>
+
+    <!-- ============================ RESEARCH ============================ -->
+    <section id="research" class="section container">
+      <header class="section__header">
+        <div class="section__eyebrow">Section I</div>
+        <h2 class="section__title">Research</h2>
+        <p class="section__subtitle">Computational social science · platforms, ideologies, audits</p>
+        <hr class="section__rule" />
+      </header>
+
+      <article class="pub">
+        <img src="assets/images/papers/youtube-extremism.svg" class="pub__img" alt="" />
+        <div class="pub__body">
+          <div class="pub__venue">ICWSM &rsquo;26</div>
+          <h3 class="pub__title">Examining the Role of YouTube Production and Consumption Dynamics on the Formation of Extreme Ideologies</h3>
+          <p class="pub__authors"><strong>Sarmad Chandio</strong>, Rishab Nithyanand</p>
+          <p class="pub__abstract">A longitudinal, mixed-methods analysis combining one year of YouTube watch history with two waves of ideological surveys from 1,100 U.S. participants. We identify users who exhibited significant shifts toward more extreme ideologies and compare their content consumption and the production patterns of the channels they engaged with to ideologically stable users. Users who shifted toward extremism were immersed in a distinct media ecosystem characterized by significantly higher levels of anger and grievance.</p>
+        </div>
+      </article>
+
+      <article class="pub">
+        <img src="assets/images/papers/stereotypes.svg" class="pub__img" alt="" />
+        <div class="pub__body">
+          <div class="pub__venue">ICWSM &rsquo;26</div>
+          <h3 class="pub__title">Flattening Fantasies: Analyzing Stereotypes in Pornographic Discourse</h3>
+          <p class="pub__authors"><strong>Sarmad Chandio</strong><sup>*</sup>, Osama Khalid<sup>*</sup>, Sharaf Zia, Ethan Kutlu &nbsp;<small>(*equal contributors)</small></p>
+          <p class="pub__abstract">A large-scale quantitative text analysis on a dataset of 5.4 million video titles to uncover sociolinguistic patterns and implicit biases. We investigate how nationalities, ethnic groups, and gender identities are portrayed in pornographic discourse, focusing on stereotypes and deviations from implicit norms of pornography. The results show the dominance of American pornography over other groups as the de facto norm, and identify persistent ethnic stereotypes reflecting colonial power dynamics, religious fetishization, and the sexualization of cultural taboos.</p>
+        </div>
+      </article>
+
+      <article class="pub">
+        <img src="assets/images/papers/conspiracy.svg" class="pub__img" alt="" />
+        <div class="pub__body">
+          <div class="pub__venue">Submitted &middot; ICWSM &rsquo;26</div>
+          <h3 class="pub__title">Measuring the Semantic Structure and Evolution of Conspiracy Theories</h3>
+          <p class="pub__authors">Manisha Keim, <strong>Sarmad Chandio</strong>, Osama Khalid, Rishab Nithyanand</p>
+          <p class="pub__abstract">What does it mean for a conspiracy theory to &ldquo;evolve&rdquo;? We argue it&rsquo;s not just new vocabulary &mdash; it&rsquo;s the meaning of existing terms shifting underneath. Across a decade of r/politics discourse (169.9M comments), we use aligned word embeddings to track conspiracy theories as semantic objects, distinguishing real conceptual drift from surface vocabulary churn.</p>
+        </div>
+      </article>
+
+      <article class="pub">
+        <img src="assets/images/papers/audit-methods.svg" class="pub__img" alt="" />
+        <div class="pub__body">
+          <div class="pub__venue">ICWSM &rsquo;24</div>
+          <h3 class="pub__title">Impact of Audit Methodologies On Understanding YouTube&rsquo;s Recommendation Systems</h3>
+          <p class="pub__authors"><strong>Sarmad Chandio</strong>, Daniyal Pirwani, Rishab Nithyanand</p>
+          <p class="pub__abstract">Computational audits of social media websites form the basis of our understanding of algorithmic recommendation systems. However, these audits are not always consistent. Focusing on YouTube, we have evidence supporting that it shows left-leaning recommendations; contrastingly, we also have evidence showing that it is right-leaning. We demonstrate that conducting sock-puppet audits to make specific inferences about the underlying content recommendation system is more methodologically challenging than one might expect, with slight changes in the audit design leading to drastic changes in the findings.</p>
+          <div class="pub__links">
+            <a href="https://ojs.aaai.org/index.php/ICWSM/article/view/31311">PDF</a>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <!-- ============================ TALKS ============================ -->
+    <section id="talks" class="section container">
+      <header class="section__header">
+        <div class="section__eyebrow">Section II</div>
+        <h2 class="section__title">Talks</h2>
+        <p class="section__subtitle">Selected presentations and invited talks</p>
+        <hr class="section__rule" />
+      </header>
+
+      <p class="placeholder-note">Talk listings coming soon. In the meantime, see <a href="#research">recent papers</a> for venues where this work has been presented.</p>
+    </section>
+
+    <!-- ============================ TEACHING ============================ -->
+    <section id="teaching" class="section container">
+      <header class="section__header">
+        <div class="section__eyebrow">Section III</div>
+        <h2 class="section__title">Teaching</h2>
+        <p class="section__subtitle">Courses taught and mentorship</p>
+        <hr class="section__rule" />
+      </header>
+
+      <p class="placeholder-note">Teaching listings coming soon. Reach out via <a href="mailto:sarmad-chandio@uiowa.edu">email</a> if you&rsquo;d like to collaborate or chat about coursework.</p>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      &copy; <span id="year">2026</span> Sarmad Chandio &nbsp;·&nbsp; Iowa City &nbsp;·&nbsp; <a href="#">back to top</a>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Waterfall pause/play toggle
+    (function () {
+      var track = document.getElementById('waterfall-track');
+      var btn   = document.getElementById('waterfall-toggle');
+      if (!track || !btn) return;
+
+      var icon  = btn.querySelector('.icon');
+      var label = btn.querySelector('.label');
+
+      btn.addEventListener('click', function () {
+        var paused = track.classList.toggle('is-paused');
+        btn.setAttribute('aria-pressed', String(paused));
+        icon.textContent  = paused ? '▶' : '❚❚';
+        label.textContent = paused ? 'Play' : 'Pause';
+      });
+    })();
+  </script>
+</body>
+</html>
