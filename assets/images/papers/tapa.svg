@@ -1,0 +1,44 @@
+<svg viewBox="0 0 360 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="360" height="240" fill="#fdf6e3"/>
+
+  <!-- raw naturalistic audio -->
+  <g stroke="#586e75" stroke-width="2.5" stroke-linecap="round">
+    <path d="M 24 46 L 24 54"/>   <path d="M 34 36 L 34 64"/>
+    <path d="M 44 24 L 44 76"/>   <path d="M 54 40 L 54 60"/>
+    <path d="M 64 30 L 64 70"/>   <path d="M 74 18 L 74 82"/>
+    <path d="M 84 44 L 84 56"/>   <path d="M 94 32 L 94 68"/>
+    <path d="M 104 26 L 104 74"/> <path d="M 114 42 L 114 58"/>
+    <path d="M 124 34 L 124 66"/> <path d="M 134 22 L 134 78"/>
+    <path d="M 144 46 L 144 54"/>
+  </g>
+  <text x="84" y="104" text-anchor="middle" font-family="Source Sans 3, sans-serif" font-size="12" fill="#586e75" font-style="italic">naturalistic audio</text>
+
+  <!-- arrow into the pipeline -->
+  <g stroke="#cb4b16" stroke-width="2" fill="none">
+    <path d="M 176 50 L 214 50"/>
+    <path d="M 206 44 L 214 50 L 206 56" stroke-linejoin="round"/>
+  </g>
+
+  <!-- segmented / aligned output -->
+  <g>
+    <rect x="222" y="26" width="40" height="48" rx="3" fill="#268bd2" opacity="0.8"/>
+    <rect x="266" y="26" width="28" height="48" rx="3" fill="#cb4b16" opacity="0.8"/>
+    <rect x="298" y="26" width="38" height="48" rx="3" fill="#073642"/>
+    <text x="242" y="56" text-anchor="middle" font-family="Source Sans 3, sans-serif" font-size="15" fill="#fdf6e3" font-weight="600">a&#720;</text>
+    <text x="280" y="56" text-anchor="middle" font-family="Source Sans 3, sans-serif" font-size="15" fill="#fdf6e3" font-weight="600">t</text>
+    <text x="317" y="56" text-anchor="middle" font-family="Source Sans 3, sans-serif" font-size="15" fill="#fdf6e3" font-weight="600">s</text>
+  </g>
+  <text x="279" y="104" text-anchor="middle" font-family="Source Sans 3, sans-serif" font-size="12" fill="#586e75" font-style="italic">aligned segments</text>
+
+  <!-- pipeline stages -->
+  <g font-family="Source Sans 3, sans-serif" font-size="12" font-weight="600" fill="#073642">
+    <rect x="24" y="130" width="146" height="34" rx="4" fill="none" stroke="#073642" stroke-width="1.5"/>
+    <text x="97" y="152" text-anchor="middle">transcribe + diarize</text>
+
+    <rect x="190" y="130" width="146" height="34" rx="4" fill="none" stroke="#073642" stroke-width="1.5"/>
+    <text x="263" y="152" text-anchor="middle">forced alignment</text>
+
+    <rect x="24" y="176" width="312" height="34" rx="4" fill="#073642"/>
+    <text x="180" y="198" text-anchor="middle" fill="#fdf6e3">formants &#183; VOT &#183; spectral moments</text>
+  </g>
+</svg>

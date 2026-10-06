@@ -358,6 +358,49 @@ button { font: inherit; }
 .pub__award i { margin-right: 0.35rem; }
 
 /* ==========================================================================
+   Entry list — talks, teaching (date column left)
+   ========================================================================== */
+.entry {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  gap: 1.5rem;
+  padding: 1.25rem 0;
+  border-bottom: 1px solid var(--border-soft);
+  align-items: baseline;
+}
+.entry:last-child { border-bottom: 0; }
+.entry__when {
+  font-family: var(--sans);
+  font-size: 0.7rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--accent);
+  line-height: 1.5;
+}
+.entry__body { min-width: 0; }
+.entry__title {
+  font-family: var(--serif);
+  font-weight: 700;
+  font-size: 1.15rem;
+  margin: 0 0 0.25rem;
+  color: var(--text);
+  line-height: 1.3;
+}
+.entry__meta {
+  font-family: var(--serif-body);
+  font-size: 1rem;
+  color: var(--text-muted);
+  margin: 0;
+}
+.entry__note {
+  font-family: var(--serif-body);
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--text);
+  margin: 0.35rem 0 0;
+}
+
+/* ==========================================================================
    Vertical waterfall — fixed side rail (desktop only)
    ========================================================================== */
 .waterfall {
@@ -504,6 +547,12 @@ button { font: inherit; }
   }
   .pub__img { width: 100%; height: 180px; }
   .pub__title { font-size: 1.15rem; }
+
+  .entry {
+    grid-template-columns: 1fr;
+    gap: 0.35rem;
+    padding: 1.1rem 0;
+  }
 
   /* Sections breathe a bit less */
   .section { padding: 3rem 0 0.5rem; }
