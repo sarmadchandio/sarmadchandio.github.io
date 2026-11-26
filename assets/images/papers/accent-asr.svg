@@ -1,0 +1,46 @@
+<svg viewBox="0 0 360 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="360" height="240" fill="#fdf6e3"/>
+
+  <!-- three accented speakers feeding one model -->
+  <g font-family="Source Sans 3, sans-serif" font-size="12" font-weight="600" fill="#073642">
+    <rect x="20" y="22" width="104" height="30" rx="4" fill="none" stroke="#268bd2" stroke-width="1.5"/>
+    <text x="72" y="42" text-anchor="middle">accent A</text>
+
+    <rect x="20" y="62" width="104" height="30" rx="4" fill="none" stroke="#cb4b16" stroke-width="1.5"/>
+    <text x="72" y="82" text-anchor="middle">accent B</text>
+
+    <rect x="20" y="102" width="104" height="30" rx="4" fill="none" stroke="#586e75" stroke-width="1.5"/>
+    <text x="72" y="122" text-anchor="middle">accent C</text>
+  </g>
+
+  <!-- arrows converging on the recognizer -->
+  <g stroke="#586e75" stroke-width="1.8" fill="none" stroke-linejoin="round">
+    <path d="M 128 37 L 168 70"/>
+    <path d="M 128 77 L 168 77"/>
+    <path d="M 128 117 L 168 84"/>
+  </g>
+
+  <!-- the ASR model -->
+  <rect x="172" y="52" width="92" height="50" rx="4" fill="#073642"/>
+  <text x="218" y="83" text-anchor="middle" font-family="Source Sans 3, sans-serif" font-size="15" font-weight="600" fill="#fdf6e3">ASR</text>
+
+  <!-- divergent error rates out -->
+  <g stroke="#cb4b16" stroke-width="2" fill="none" stroke-linejoin="round">
+    <path d="M 268 77 L 304 77"/>
+    <path d="M 296 71 L 304 77 L 296 83"/>
+  </g>
+  <text x="330" y="82" text-anchor="middle" font-family="Source Sans 3, sans-serif" font-size="13" font-weight="600" fill="#cb4b16">WER</text>
+
+  <!-- unequal error bars per accent -->
+  <g>
+    <rect x="24" y="186" width="34" height="24" rx="3" fill="#268bd2" opacity="0.8"/>
+    <rect x="68" y="168" width="34" height="42" rx="3" fill="#cb4b16" opacity="0.8"/>
+    <rect x="112" y="150" width="34" height="60" rx="3" fill="#073642"/>
+    <rect x="156" y="178" width="34" height="32" rx="3" fill="#268bd2" opacity="0.8"/>
+    <rect x="200" y="158" width="34" height="52" rx="3" fill="#cb4b16" opacity="0.8"/>
+    <rect x="244" y="192" width="34" height="18" rx="3" fill="#586e75" opacity="0.8"/>
+    <rect x="288" y="164" width="34" height="46" rx="3" fill="#073642"/>
+    <path d="M 24 210 L 336 210" stroke="#586e75" stroke-width="1.5"/>
+  </g>
+  <text x="180" y="141" text-anchor="middle" font-family="Source Sans 3, sans-serif" font-size="12" fill="#586e75" font-style="italic">error rates differ by accent</text>
+</svg>
