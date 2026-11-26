@@ -1,8 +1,9 @@
-# Local artifacts
+# Local artifacts (leftovers from the old Jekyll setup)
 .bundle/
 vendor/
 node_modules/
 _site/
+Gemfile.lock
 
 # Local files (not for the public site)
 ConspiracyEvolution.pdf
